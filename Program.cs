@@ -9,7 +9,7 @@
     "ῥέξομεν ἱερὰ καλά, ἔπειτα δὲ καὶ περὶ πομπῆς",
     "μνησόμεθ᾽, ὥς χ᾽ ὁ ξεῖνος ἄνευθε πόνου καὶ ἀνίης",
     "πομπῇ ὑφ᾽ ἡμετέρῃ ἣν πατρίδα γαῖαν ἵκηται",
-    "χαίρων καρπαλίμως, εἰ καὶ μάλα τηλόθεν ἐστί,",
+    "χαίρων καρπαλίμως, εἰ καὶ μάλα τηλόθεν ἐστί,", //
     "μηδέ τι μεσσηγύς γε κακὸν καὶ πῆμα πάθῃσι,",
     "πρίν γε τὸν ἧς γαίης ἐπιβήμεναι: ἔνθα δ᾽ ἔπειτα",
     "πείσεται, ἅσσα οἱ αἶσα κατὰ κλῶθές τε βαρεῖαι",
@@ -121,7 +121,12 @@ string[] translation = {
     "listen, leaders and counsellors of the Phaeacians",
     "in order that I may say what the heart in my breast orders me to.",
     "now on one hand, having finished your feast, you each of you to your house to rest;",
-    "but at dawn having called upon more old men"
+    "but at dawn having called upon more old men",
+    "we will receive the stranger in our halls and to the gods",
+    "we will make good sacrifices, but then about his sending",
+    "we will think, so the stranger without toil and trouble",
+    "may under our escort come to his father land",
+    "rejoicing swiftly, even if he is from very far"
 };
 
 int max_line_number = translation.Length;
