@@ -120,7 +120,8 @@ string[] translation = {
     "Alcinous addressed the assembly and said among them:",
     "listen, leaders and counsellors of the Phaeacians",
     "in order that I may say what the heart in my breast orders me to.",
-    "now on one hand, having finished your feast, you each of you to your house to rest;"
+    "now on one hand, having finished your feast, you each of you to your house to rest;",
+    "but at dawn having called upon more old men"
 };
 
 int max_line_number = translation.Length;

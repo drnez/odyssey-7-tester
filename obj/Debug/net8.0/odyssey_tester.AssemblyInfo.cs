@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("odyssey_tester")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8230cd77b867ad2317ba8754b0083203a62e9f26")]
 [assembly: System.Reflection.AssemblyProductAttribute("odyssey_tester")]
 [assembly: System.Reflection.AssemblyTitleAttribute("odyssey_tester")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
