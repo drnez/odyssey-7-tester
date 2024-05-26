@@ -12,3 +12,4 @@
 /home/shayan/Documents/Programming/c#/odyssey_tester/obj/Debug/net8.0/odyssey_tester.pdb
 /home/shayan/Documents/Programming/c#/odyssey_tester/obj/Debug/net8.0/odyssey_tester.genruntimeconfig.cache
 /home/shayan/Documents/Programming/c#/odyssey_tester/obj/Debug/net8.0/ref/odyssey_tester.dll
+/home/shayan/Documents/Programming/c#/odyssey_tester/obj/Debug/net8.0/odyssey_tester.sourcelink.json
