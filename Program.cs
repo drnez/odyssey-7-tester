@@ -126,7 +126,55 @@ string[] translation = {
     "we will make good sacrifices, but then about his sending",
     "we will think, so the stranger without toil and trouble",
     "may under our escort come to his father land",
-    "rejoicing swiftly, even if he is from very far"
+    "rejoicing swiftly, even if he is from very far",
+    "nor meanwhile shall he at any rate suffer any evil and harm",
+    "at least until he goes upon his land; but then there",
+    "he shall suffer whatever the Fate and dread spinners for him",
+    "spun out with their thread at his birth, when his mother bore him.",
+    "but if at any rate he is one of the immortals come down from heaven,",
+    "then this is a certain other thing that the gods are preparing very carefully.",
+    "for before at any rate the gods always appeared in bodily form",
+    "to us, when we sacrifice glorious hecatombs,",
+    "and they feast beside us, sitting where we sit.",
+    "even if a certain traveller going alone meets them,",
+    "they use no concealement, since we are of relationship to them,",
+    "like both the Cyclopes and the wild tribe of Giants.",
+    "but resourceful Odysseus replied to him, answering:",
+    "Alcinous, may another think be the object of care in your mind: for I at any rate am not",
+    "like the immortals, who have broad heaven,",
+    "not in stature nor in form, but like mortal men.",
+    "those men you knew, carrying the most suffering",
+    "of men, to them I would liken myself in pain",
+    "yes and still I could have spoken more about the evils,",
+    "indeed at any rate all together as great as what I suffered of the gods' desire.",
+    "but for my part permit me to take supper despire being troubled;",
+    "for there is nothing more dog-like than a hateful belly",
+    "which both orders a man with force to think about it",
+    "even though he is very distressed and has grief in his heart, - HOLODACTYLIC LINE (FAST)",
+    "even as I have grief in my heart, the belly very much always",
+    "commands me to eat and to drink, but from me",
+    "makes my forget all the things I have suffered, and orders me to fill myself quite full.",
+    "but make haste with dawn appearing,",
+    "so that you may place me, the unlucky one, upon my fatherland",
+    "even though I have suffered many things; and may life leave me having seen",
+    "my property, and both my slaves and my big high roofed house."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 };
 
 int max_line_number = translation.Length;
