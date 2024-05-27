@@ -132,7 +132,7 @@ string[] translation = {
     "he shall suffer whatever the Fate and dread spinners for him",
     "spun out with their thread at his birth, when his mother bore him.",
     "but if at any rate he is one of the immortals come down from heaven,",
-    "then this is a certain other thing that the gods are preparing very carefully.",
+    "then this is a certain other thing that the gods are preparing.",
     "for before at any rate the gods always appeared in bodily form",
     "to us, when we sacrifice glorious hecatombs,",
     "and they feast beside us, sitting where we sit.",
@@ -177,6 +177,8 @@ string[] translation = {
 
 };
 
+Console.WriteLine("Lines 1-23: Section 1.n");
+Console.WriteLine("Lines 24-42: Section 2.n");
 int max_line_number = translation.Length;
 bool finish = false;
 int score = 0;
@@ -222,7 +224,7 @@ while (!finish)
         if (tested[line_number] == false) failed = false;
     }
     tested[line_number] = true;
-    Console.WriteLine(text[line_number]); // max index 113
+    Console.WriteLine($"{line_number+1}: {text[line_number]}"); // max index 113
     string? input = Console.ReadLine();
     if (input == "-1")
     {
