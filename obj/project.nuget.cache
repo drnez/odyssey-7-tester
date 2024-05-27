@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "k8fsLHTzvD0cApj28yh43iHNwzyEhqdCokzZXTSasm30+PsEG1BibksnTAAchKs1qMPNbmV97yaMKnD/XNu8IQ==",
+  "dgSpecHash": "aiHDcZrLrAPJDWE6No/9OLHUgXsQn6gJKpMjalcr0GDZGoK94TznYAH/44TI8G2x1anIPgrTxpJDfiSZ/hLGbQ==",
   "success": true,
   "projectFilePath": "/home/shayan/Documents/Programming/c#/odyssey_tester/odyssey_tester.csproj",
   "expectedPackageFiles": [
-    "/home/shayan/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.5/microsoft.aspnetcore.app.ref.8.0.5.nupkg.sha512"
+    "/home/shayan/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.5/microsoft.aspnetcore.app.ref.8.0.5.nupkg.sha512",
+    "/home/shayan/.nuget/packages/microsoft.netcore.app.host.linux-x64/8.0.5/microsoft.netcore.app.host.linux-x64.8.0.5.nupkg.sha512"
   ],
   "logs": []
 }
