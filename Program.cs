@@ -133,6 +133,7 @@ int max_line_number = translation.Length;
 bool finish = false;
 int score = 0;
 int attempts = -1;
+bool[] tested = new bool[120];
 Random r = new Random();
 
 bool valid = false;
@@ -165,7 +166,14 @@ while (!valid)
 
 while (!finish)
 {
-    int line_number = r.Next(start-1, end);
+    int line_number = 0;
+    bool failed = true;
+    while (failed == true)
+    {
+        line_number = r.Next(start-1, end);
+        if (tested[line_number] == false) failed = false;
+    }
+    tested[line_number] = true;
     Console.WriteLine(text[line_number]); // max index 113
     string? input = Console.ReadLine();
     if (input == "-1")
@@ -189,5 +197,10 @@ while (!finish)
         }
     }
     attempts++;
+    if (attempts == end - start)
+    {
+        finish = true;
+        attempts++;
+    }
 }
 Console.WriteLine($"Final score is {score}/{attempts} or {(100*score)/attempts}%");
