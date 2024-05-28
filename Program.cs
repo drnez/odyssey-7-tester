@@ -31,8 +31,8 @@
     "καὶ δ᾽ ἔτι κεν καὶ μᾶλλον ἐγὼ κακὰ μυθησαίμην,",
     "ὅσσα γε δὴ ξύμπαντα θεῶν ἰότητι μόγησα.",
     "ἀλλ᾽ ἐμὲ μὲν δορπῆσαι ἐάσατε κηδόμενόν περ:",
-    "οὐ γάρ τι στυγερῇ ἐπὶ γαστέρι κύντερον ἄλλο",
-    "ἔπλετο, ἥ τ᾽ ἐκέλευσεν ἕο μνήσασθαι ἀνάγκῃ",
+    "οὐ γάρ τι στυγερῇ ἐπὶ γαστέρι κύντερον ἄλλο // ἔπλετο",
+    "(ἔπλετο), ἥ τ᾽ ἐκέλευσεν ἕο μνήσασθαι ἀνάγκῃ",
     "καὶ μάλα τειρόμενον καὶ ἐνὶ φρεσὶ πένθος ἔχοντα,",
     "ὡς καὶ ἐγὼ πένθος μὲν ἔχω φρεσίν, ἡ δὲ μάλ᾽ αἰεὶ",
     "ἐσθέμεναι κέλεται καὶ πινέμεν, ἐκ δέ με πάντων",
@@ -127,7 +127,7 @@ string[] translation = {
     "we will think, so the stranger without toil and trouble",
     "may under our escort come to his father land",
     "rejoicing swiftly, even if he is from very far",
-    "nor meanwhile shall he at any rate suffer any evil and harm",
+    "nor meanwhile shall he at any rate suffer any evil and harm,",
     "at least until he goes upon his land; but then there",
     "he shall suffer whatever the Fate and dread spinners for him",
     "spun out with their thread at his birth, when his mother bore him.",
@@ -144,7 +144,7 @@ string[] translation = {
     "like the immortals, who have broad heaven,",
     "not in stature nor in form, but like mortal men.",
     "those men you knew, carrying the most suffering",
-    "of men, to them I would liken myself in pain",
+    "of men, to them I would liken myself in pain.",
     "yes and still I could have spoken more about the evils,",
     "indeed at any rate all together as great as what I suffered of the gods' desire.",
     "but for my part permit me to take supper despire being troubled;",
@@ -183,7 +183,7 @@ int max_line_number = translation.Length;
 bool finish = false;
 int score = 0;
 int attempts = -1;
-bool[] tested = new bool[120];
+bool[,] tested = new bool[120, 2];
 Random r = new Random();
 
 bool valid = false;
@@ -221,9 +221,9 @@ while (!finish)
     while (failed == true)
     {
         line_number = r.Next(start-1, end);
-        if (tested[line_number] == false) failed = false;
+        if (tested[line_number, 0] == false) failed = false;
     }
-    tested[line_number] = true;
+    tested[line_number, 0] = true;
     Console.WriteLine($"{line_number+1}: {text[line_number]}"); // max index 113
     string? input = Console.ReadLine();
     if (input == "-1")
@@ -244,6 +244,9 @@ while (!finish)
         {
             Console.WriteLine("Acknowledged.");
             score++;
+        } else
+        {
+            tested[line_number, 1] = true;
         }
     }
     attempts++;
@@ -254,3 +257,10 @@ while (!finish)
     }
 }
 Console.WriteLine($"Final score is {score}/{attempts} or {(100*score)/attempts}%");
+for (int i = 0; i < 120; i++)
+{
+    if (tested[i, 1])
+    {
+        Console.Write($"{i+1} ");
+    }
+}
