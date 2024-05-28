@@ -49,8 +49,8 @@
     "πὰρ δέ οἱ Ἀρήτη τε καὶ Ἀλκίνοος θεοειδὴς",
     "ἥσθην: ἀμφίπολοι δ᾽ ἀπεκόσμεον ἔντεα δαιτός.",
     "τοῖσιν δ᾽ Ἀρήτη λευκώλενος ἤρχετο μύθων:",
-    "ἔγνω γὰρ φᾶρός τε χιτῶνά τε εἵματ᾽ ἰδοῦσα",
-    "καλά, τά ῥ᾽ αὐτὴ τεῦξε σὺν ἀμφιπόλοισι γυναιξί:",
+    "ἔγνω γὰρ φᾶρός τε χιτῶνά τε εἵματ᾽ ἰδοῦσα // καλά",
+    "(καλά), τά ῥ᾽ αὐτὴ τεῦξε σὺν ἀμφιπόλοισι γυναιξί:",
     "καί μιν φωνήσασ᾽ ἔπεα πτερόεντα προσηύδα:",
     "ξεῖνε, τὸ μέν σε πρῶτον ἐγὼν εἰρήσομαι αὐτή:",
     "τίς πόθεν εἰς ἀνδρῶν; τίς τοι τάδε εἵματ᾽ ἔδωκεν;",
@@ -74,8 +74,8 @@
     "ἐνδυκέως ἐφίλει τε καὶ ἔτρεφεν ἠδὲ ἔφασκε",
     "θήσειν ἀθάνατον καὶ ἀγήραον ἤματα πάντα:",
     "ἀλλ᾽ ἐμὸν οὔ ποτε θυμὸν ἐνὶ στήθεσσιν ἔπειθεν.",
-    "ἔνθα μὲν ἑπτάετες μένον ἔμπεδον, εἵματα δ᾽ αἰεὶ",
-    "δάκρυσι δεύεσκον, τά μοι ἄμβροτα δῶκε Καλυψώ:",
+    "ἔνθα μὲν ἑπτάετες μένον ἔμπεδον, εἵματα δ᾽ αἰεὶ // δάκρυσι δεύεσκον",
+    "(δάκρυσι δεύεσκον), τά μοι ἄμβροτα δῶκε Καλυψώ:",
     "ἀλλ᾽ ὅτε δὴ ὀγδόατόν μοι ἐπιπλόμενον ἔτος ἦλθεν,",
     "καὶ τότε δή μ᾽ ἐκέλευσεν ἐποτρύνουσα νέεσθαι",
     "Ζηνὸς ὑπ᾽ ἀγγελίης, ἢ καὶ νόος ἐτράπετ᾽ αὐτῆς.",
@@ -157,15 +157,47 @@ string[] translation = {
     "but make haste with dawn appearing,",
     "so that you may place me, the unlucky one, upon my fatherland",
     "even though I have suffered many things; and may life leave me having seen",
-    "my property, and both my slaves and my big high roofed house."
-
-
-
-
-
-
-
-
+    "my property, and both my slaves and my big high roofed house.",
+    "so he spoke, but then all the men applauded and ordered",
+    "to send the stranger, since he spoke following due measure.",
+    "but when the both poured libations and drank as much as their heart wished,",
+    "on one hand, each of the men when home to rest,",
+    "but in the hall heavenly Odysseus was left remaining,",
+    "but beside him both Arete and godlike Alcinous",
+    "sat; but the attendants cleared away the dishes of the feast.",
+    "but white-armed Arete was the first to speak;",
+    "for she knew his beautiful garment, both the cloak and tunic, having seen it",
+    "that she herself made with her woman slaves;",
+    "and she spoke to him, and addressed him with winged words:",
+    "stranger, for my part I myself will ask you first;",
+    "who are you among men, and from where? who gave you this cloak?",
+    "indeed, do you not say that you came here wandering over the sea?",
+    "it is painful, queen, to continuously tell (the story)",
+    "of my troubles, since the heavenly gods gave me many;",
+    "but I will tell you this, of which you ask and enquire me.",
+    "Ogygia, a certain island, lies far off in the sea",
+    "there on one hand the daughter of Atlas, crafty Calypso",
+    "dwells, fairheaded, a terrible goddess; not a certain one with her",
+    "has sex, neither of gods nor of mortal men.",
+    "but father led me, the wretched one, to her home",
+    "alone, since my swift ship, with his bright thunderbolt",
+    "Zeus held back and shattered it in the middle of the wine-dark sea.",
+    "there all my other good comrades perished",
+    "but I, having grasped the curved ship's keel into my arms",
+    "for nine days I was drifiting; but on the tenth black night",
+    "the gods brought me to the island Ogygia, where Calypso",
+    "dwells fairheaded, a terrible goddess, who having taken me",
+    "both kindly welcomed me and looked after me and said",
+    "she would make me immortal and ageless for all my days;",
+    "but she never persuaded the heart in my breast.",
+    "on one hand I stayed there firm-set for seven years, but I always wet my garment with tears",
+    "the immortal one that Calypso gave to me;",
+    "but indeed when the eighth year approaching me came,",
+    "then she ordered me to go, urging me on,",
+    "because of a message by Zeus, or even that her own mind turned.",
+    "but she sent me upon a strong-bound raft, but game me much",
+    "food and pleasant wine, and put an immortal rainment on me,",
+    "be she sent on a wind both favorable and warm." // 266, end of 3.x
 
 
 
@@ -179,6 +211,7 @@ string[] translation = {
 
 Console.WriteLine("Lines 1-23: Section 1.n");
 Console.WriteLine("Lines 24-42: Section 2.n");
+Console.WriteLine("Lines 43-83: Section 3.n");
 int max_line_number = translation.Length;
 bool finish = false;
 int score = 0;
