@@ -172,6 +172,7 @@ string[] translation = {
     "stranger, for my part I myself will ask you first;",
     "who are you among men, and from where? who gave you this cloak?",
     "indeed, do you not say that you came here wandering over the sea?",
+    "but resourceful Odysseus replied, answering:",
     "it is painful, queen, to continuously tell (the story)",
     "of my troubles, since the heavenly gods gave me many;",
     "but I will tell you this, of which you ask and enquire me.",
