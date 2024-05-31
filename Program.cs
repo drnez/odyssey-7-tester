@@ -230,20 +230,12 @@ string[] translation = {
     "she gave me food in plenty and sparkling wine",
     "and bathed me in the river and gave to me this garment.",
     "in these things, despite grieving, I have told the truth."
-
-
-
-
-
-
-
-
-
 };
 
 Console.WriteLine("Lines 1-23: Section 1.n");
 Console.WriteLine("Lines 24-42: Section 2.n");
 Console.WriteLine("Lines 43-83: Section 3.n");
+Console.WriteLine("Lines 84-114: Section 4.n");
 int max_line_number = translation.Length;
 bool finish = false;
 int score = 0;
